@@ -38,18 +38,18 @@ It's important not to simply use the integer value from the **`extractedData$act
 
 ### Appropriately label the data set with descriptive variable names. 
 
-Names from **`extractedData`** were stored in a vector.  I created the following substitution matrix containing regex patterns and replacements
+Names from **`extractedData`** were stored in a vector.  I created the following substitution matrix containing regex patterns and replacements to make feature names English readable and to remove illegal characters.
 
-      pattern    replacement    
- [1,] "^t"       "time"         
- [2,] "^f"       "freq"         
- [3,] "Acc"      "Accelerometer"
- [4,] "Gyro"     "Gyroscope"    
- [5,] "BodyBody" "Body"         
- [6,] "Mag"      "Magnitude"    
- [7,] "mean"     "Mean"         
- [8,] "std"      "StDev"        
- [9,] "-|\\()"   ""             
+    pattern    replacement    
+    "^t"       "time"         
+    "^f"       "freq"         
+    "Acc"      "Accelerometer"
+    "Gyro"     "Gyroscope"    
+    "BodyBody" "Body"         
+    "Mag"      "Magnitude"    
+    "mean"     "Mean"         
+    "std"      "StDev"        
+    "-|\\()"   ""             
 
 A for loop through this matrix using `gsub` made the substitutions in the name vector, and the result was used to rename **`extractedData`** .
 
