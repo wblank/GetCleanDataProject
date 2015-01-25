@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project
-# 
+# Create a tidy data summary from HAR data set
 # 
 
 # Reading datasets, subject & activity vectors, and feature names
