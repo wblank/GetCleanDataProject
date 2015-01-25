@@ -19,11 +19,13 @@ The final tidied datafile `tidyData.txt` contains means for all selected feature
 ***
 
 * **`subject`** 
+
 > ID of the subjects, ranging from 1 to 30, from whom data was collected.  Class: Integer.
 
 ***
 
 * **`activity`** 
+
 > 6 activities which were observed for data collection: walking, walkingUpstairs, walkingDownstairs, sitting, standing, laying.  Class: Factor.
 
 ***
@@ -42,6 +44,7 @@ The remaining variables are the data features which were selected from the full 
 * **`timeGravityAccelerometerStDevX`**
 * **`timeGravityAccelerometerStDevY`**
 * **`timeGravityAccelerometerStDevZ`**
+
 > Accelerometer 3-axial signals in the time domain were separated into body and gravity acceleration signals **`timeBodyAccelerometer`** and **`timeGravityAccelerometer`** in the **`X`**, **`Y`**, and **`Z`** axes.
 
 ***
@@ -52,6 +55,7 @@ The remaining variables are the data features which were selected from the full 
 * **`timeBodyAccelerometerJerkStDevX`**
 * **`timeBodyAccelerometerJerkStDevY`**
 * **`timeBodyAccelerometerJerkStDevZ`**
+
 > Body linear acceleration was derived in time to obtain Jerk signals **`timeBodyAccelerometerJerk`** in the **`X`**, **`Y`**, and **`Z`** axes. 
 
 ***
@@ -62,6 +66,7 @@ The remaining variables are the data features which were selected from the full 
 * **`timeBodyGyroscopeStDevX`**
 * **`timeBodyGyroscopeStDevY`**
 * **`timeBodyGyroscopeStDevZ`**
+
 > Gyrometer 3-axial signals in the time domain gave body angular velocity **`timeBodyGyroscope`** in the **`X`**, **`Y`**, and **`Z`** axes.
 
 ***
@@ -72,6 +77,7 @@ The remaining variables are the data features which were selected from the full 
 * **`timeBodyGyroscopeJerkStDevX`**
 * **`timeBodyGyroscopeJerkStDevY`**
 * **`timeBodyGyroscopeJerkStDevZ`**
+
 > Body angular velocity was derived in time to obtain Jerk signals **`timeBodyGyroscopeJerk`** in the **`X`**, **`Y`**, and **`Z`** axes. 
 
 ***
@@ -86,6 +92,7 @@ The remaining variables are the data features which were selected from the full 
 * **`timeBodyGyroscopeMagnitudeStDev`**
 * **`timeBodyGyroscopeJerkMagnitudeMean`**
 * **`timeBodyGyroscopeJerkMagnitudeStDev`**
+
 > The **`Magnitude`** of the previously described three-dimensional signals was calculated using the Euclidean norm. 
 
 ***
@@ -116,6 +123,7 @@ The remaining variables are the data features which were selected from the full 
 * **`freqBodyGyroscopeMagnitudeStDev`**
 * **`freqBodyGyroscopeJerkMagnitudeMean`**
 * **`freqBodyGyroscopeJerkMagnitudeStDev`**
+
 > A Fast Fourier Transform was applied to give a **`freq`**uency domain signal to all of the above features _except_ the **`timeBodyGyroscopeJerk`** axial features and all the **`timeGravityAccelerometer`** features.
 
 ***
